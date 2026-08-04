@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resturent website/Menu.html</title>
+  <style>
+.menu{
+    padding:80px 8%;
+    background:#f8f8f8;
+    text-align:center;
+}
+
+.menu h2{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.menu-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.menu-card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.menu-card:hover{
+    transform:translateY(-8px);
+}
+
+.menu-card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.menu-card h3{
+    margin:15px 0 10px;
+}
+
+.menu-card p{
+    color:#666;
+    padding:0 15px;
+}
+
+.menu-card span{
+    display:block;
+    font-size:22px;
+    color:#ff6b00;
+    font-weight:bold;
+    margin:15px 0 20px;
+}
+
+button{
+  background: black;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.menu-card {
+    animation: float 2s ease-in-out infinite;
+}
+
+.menu-card:nth-child(even) {
+    animation-delay: 0.5s;
+}
+
+.menu-card:nth-child(3n) {
+    animation-delay: 1s;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+#searchBox{
+    
+width:300px;
+max-width:90%;
+padding:10px;
+font-size:16px;
+margin-bottom:20px;
+}
+  </style>
+</head>
+
+<body>
+  <section class="menu" id="menu">
+
+    <h2>Our Menu</h2>
+    
+    <!--Search input box-->
+    
+<input type="text" id="searchBox" placeholder="Search food...">
+
+<p id="noResult" style="display:none;color:red;font-size:18px;">
+No Results Found
+</p>
+
+    <div class="menu-grid">
+
+        <div class="menu-card">
+            <img src="pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg" alt="Pizza">
+            <h3>Margherita Pizza</h3>
+            <p>Fresh cheese with tomato sauce.</p>
+            <span>$6.47</span>
+              <a href="order.html"> <button type="button">Order</button></a>
+        </div>
+
+        <div class="menu-card">
+            <img src="classic-cheeseburger-768x1152.jpg" alt="Burger">
+            <h3>Cheese Burger</h3>
+            <p>Juicy grilled burger with cheese.</p>
+            <span>$4.79</span>
+            <a href="order.html"><button type="button">Order</button></a>
+        </div>
+
+        <div class="menu-card">
+            <img src="WhiteSaucePasta6.jpg" alt="Pasta">
+            <h3>White Sauce Pasta</h3>
+            <p>Creamy pasta with herbs.</p>
+            <span>$5.23</span>
+             <a href="order.html"><button type="button">Order</button></a>
+        </div>
+
+        <div class="menu-card">
+            <img src="Ninja-Foodi-French-Fries5-768x1152.jpg" alt="Fries">
+            <h3>French Fries</h3>
+            <p>Crispy golden fries.</p>
+            <span>$2.19</span>
+             <a href="order.html"><button type="button">Order</button></a>
+        </div>
+
+        <div class="menu-card">
+            <img src="just-bought-two-cases-of-this-feels-like-im-drinking-v0-f4h384lwbw971.jpg" alt="Cold Drink">
+            <h3>Cold Drink</h3>
+            <p>Chilled soft drink.</p>
+            <span>$7.27</span>
+             <a href="order.html"><button type="button">Order</button></a>
+        </div>
+
+        <div class="menu-card">
+            <img src="68304065.jpg" alt="Ice Cream">
+            <h3>Chocolate Ice Cream</h3>
+            <p>Rich chocolate flavour.</p>
+            <span>₹$6,649</span>
+                <a href="order.html"><button type="button">Order</button></a>
+        </div>
+
+    </div>
+
+</section>
+
+<!--JavaScript start-->
+
+<script>
+const searchBox = document.getElementById("searchBox");
+const cards = document.querySelectorAll(".menu-card");
+const noResult = document.getElementById("noResult");
+
+searchBox.addEventListener("input", function () {
+    const value = this.value.toLowerCase();
+    let found = false;
+
+    cards.forEach(card => {
+        const text = card.innerText.toLowerCase();
+
+        if (text.includes(value)) {
+            card.style.display = "block";
+            found = true;
+        } else {
+            card.style.display = "none";
+        }
+    });
+
+    noResult.style.display = found ? "none" : "block";
+});
+</script>
+</body>
+</html>
