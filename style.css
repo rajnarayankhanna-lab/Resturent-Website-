@@ -1,0 +1,103 @@
+*{
+  margin: 0px;
+  border-radius:0px;
+}
+body{
+background:linear-gradient(to right,#82A9F6,#5963D3);
+color: white;
+text-align: center;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.logo{
+  border-radius: 50%;
+  position: sticky;
+  margin-top: 10px; 
+}
+
+nav{
+  background: #C9C678;
+  margin-top: 15px;
+  font-size: 20px;
+}
+nav:hover{
+  background: black;
+}
+
+.food{
+  border-radius: 50px;
+  margin-top: 30px;
+  box-shadow: 1px 0px 5px 3px black
+}
+figure{
+  background: transparent;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 40px;
+  box-shadow: 5px 2px 5px 2px black;
+}
+figcaption{
+  font-size: 25px;
+  font-family: cursive;
+}
+figcaption::after{
+  content: "🌟";
+  display: block;
+  font-size: 30px;
+  background: transparent;
+  border-radius: 20px;
+  box-shadow: 5px 2px 5px 0px black;
+}
+
+button{
+  background: black;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  font-size: 15px;
+}
+span{
+  font-size: 20px;
+}
+
+h2{
+  margin-top: 10px;
+}
+.sweet{
+  border-radius: 50px;
+  margin-top: 30px;
+  box-shadow: 1px 0px 5px 3px black;
+}
+
+/*Order.html start*/
+
+input{
+  font-size: 15px;
+  background: #505053;
+  color: white;
+}
+select{
+  color: white;
+  background: black;
+  border-color: white;
+  border-radius: 50%;
+  text-align: center;
+  height: 40px;
+  font-size: 20px;
+}
+
+fieldset{
+  border-radius: 20px;
+  margin: 5px;
+}
+
+#account{
+  margin-top: 15px;
+}
+
+mark{
+  background-color: grey;
+}
