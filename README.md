@@ -61,7 +61,24 @@ Restaurant-Website/
 ├── index.html
 ├── style.css
 ├── order.html
+├── contact.html
+├── About-Us.html
+├── good.html
+├── IMG_20260804_141119.jpg
+├── IMG_20260804_141151.jpg
+├── IMG_20260804_141346.jpg
+├── IMG_20260804_141431.jpg
+│
 └── Images/
+    ├── 68304065.jpg
+    ├── Gulab-Jamun-1.jpg
+    ├── IMG_0727-4-scaled.jpg
+    ├── Ninja-Foodi-French-Fries5-768×1152.jpg
+    ├── WhiteSaucePasta6.jpg
+    ├── classic-cheeseburger-768×1152.jpg
+    ├── just-bought-two-cases-of-this-feels-like-im-drinking-v0-f4h384lwbw971.jpg
+    ├── photo.jpg
+    └── pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg
 
 📝 Note
 This is a frontend-only project created for learning and practice purposes.
