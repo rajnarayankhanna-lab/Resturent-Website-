@@ -19,10 +19,15 @@ This is a frontend website designed to showcase a restaurant's menu, food items,
 
 ✅ Beautiful restaurant landing page  
 ✅ Food menu showcase  
+
 ✅ Order section 
+
 ✅About section
+
 ✅Menu section with search bar
+
 ✅ Contact section
+
 ✅ Clean UI design  
 ✅ Built with pure HTML & CSS  
 
