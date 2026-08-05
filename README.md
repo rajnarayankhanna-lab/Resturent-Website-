@@ -40,10 +40,16 @@ This is a frontend website designed to showcase a restaurant's menu, food items,
 
 ![resturent website](IMG_20260804_141119.jpg)
 Home/first page of the website
+
+
 ![resturent website](IMG_20260804_141151.jpg)
 Our restaurant menu page
+
+
 ![resturent website](IMG_20260804_141346.jpg)
 Contact details of resturent, these details are fake
+
+
 ![resturent website](IMG_20260804_141431.jpg)
 Order section of the website 
 ## 🌐 Live Demo
