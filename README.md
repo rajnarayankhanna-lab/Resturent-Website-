@@ -38,12 +38,10 @@ This is a frontend website designed to showcase a restaurant's menu, food items,
 
 ## 📸 Preview
 
-[!resturentwebsite][!(IMG_20260804_141119.jpg)
-[!resturent website]                      (​IMG_20260804_141151.jpg)
-[!resturent website]
-(​IMG_20260804_141346.jpg)
-[!resturent website]
-(​IMG_20260804_141431.jpg)
+![resturent website](IMG_20260804_141119.jpg)
+![resturent website](IMG_20260804_141151.jpg)
+![resturent website](IMG_20260804_141346.jpg)
+![resturent website](IMG_20260804_141431.jpg)
 
 ## 🌐 Live Demo
 
