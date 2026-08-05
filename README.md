@@ -56,3 +56,9 @@ Restaurant-Website/
 ├── style.css
 ├── order.html
 └── Images/
+
+📝 Note
+This is a frontend-only project created for learning and practice purposes.
+👨‍💻 Author
+Kartik Kushwaha
+⭐ If you like this project, consider giving it a star!
