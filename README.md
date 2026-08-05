@@ -59,11 +59,12 @@ Order section of the website
 Restaurant-Website/
 │
 ├── index.html
-├── style.css
+├── menu.html
 ├── order.html
 ├── contact.html
 ├── About-Us.html
 ├── good.html
+├── style.css
 ├── IMG_20260804_141119.jpg
 ├── IMG_20260804_141151.jpg
 ├── IMG_20260804_141346.jpg
@@ -78,7 +79,8 @@ Restaurant-Website/
     ├── classic-cheeseburger-768×1152.jpg
     ├── just-bought-two-cases-of-this-feels-like-im-drinking-v0-f4h384lwbw971.jpg
     ├── photo.jpg
-    └── pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg
+    └──
+pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg   
 
 📝 Note
 This is a frontend-only project created for learning and practice purposes.
